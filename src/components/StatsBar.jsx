@@ -1,8 +1,8 @@
 export default function StatsBar({ stats }) {
   const items = [
-    { icon: '🎬', label: 'Films', total: stats.movies.total },
     { icon: '📚', label: 'Books', total: stats.books.total },
     { icon: '🎵', label: 'Music', total: stats.music.total },
+    { icon: '🎬', label: 'Films', total: stats.movies.total },
   ]
 
   return (
