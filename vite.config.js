@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/douban-shelf/', // GitHub Pages repo name
+  base: '/cassies-shelf/', // GitHub Pages repo name
 })
