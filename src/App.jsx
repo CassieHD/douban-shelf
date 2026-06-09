@@ -6,14 +6,14 @@ import BookTab from './components/BookTab'
 import MusicTab from './components/MusicTab'
 
 const TABS = [
-  { id: 'movie', label: '🎬 电影' },
   { id: 'book', label: '📚 书籍' },
   { id: 'music', label: '🎵 音乐' },
+  { id: 'movie', label: '🎬 电影' },
 ]
 
 export default function App() {
   const { movies, books, music, loading, stats } = useData()
-  const [activeTab, setActiveTab] = useState('movie')
+  const [activeTab, setActiveTab] = useState('book')
 
   return (
     <div className="min-h-screen bg-[#0f0f0f]">
